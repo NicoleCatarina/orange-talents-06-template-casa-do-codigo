@@ -24,6 +24,10 @@ public class Autor {
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     private LocalDateTime instanteCriacao = LocalDateTime.now();
 
+    @Deprecated
+    public Autor(){
+    }
+
     public Autor(@NotBlank String nome, @NotBlank @Email String email,
                  @NotBlank @Size(max = 400) String descricao) {
         this.nome = nome;
