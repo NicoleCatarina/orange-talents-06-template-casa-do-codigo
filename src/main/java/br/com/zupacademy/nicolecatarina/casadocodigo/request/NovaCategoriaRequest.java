@@ -1,10 +1,13 @@
 package br.com.zupacademy.nicolecatarina.casadocodigo.request;
 
+import br.com.zupacademy.nicolecatarina.casadocodigo.exception.UniqueValue;
+
 import javax.validation.constraints.NotBlank;
 
 public class NovaCategoriaRequest {
 
     @NotBlank
+    @UniqueValue(domainClass = Categoria.class, fieldName = "nome")
     private String nome;
 
     //public NovaCategoriaRequest(String nome) {

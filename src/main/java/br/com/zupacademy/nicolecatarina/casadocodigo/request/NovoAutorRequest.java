@@ -1,5 +1,7 @@
 package br.com.zupacademy.nicolecatarina.casadocodigo.request;
 
+import br.com.zupacademy.nicolecatarina.casadocodigo.exception.UniqueValue;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -10,6 +12,7 @@ public class NovoAutorRequest {
     private String nome;
     @NotBlank
     @Email
+    @UniqueValue(domainClass = Autor.class, fieldName = "email")
     private String email;
     @NotBlank
     @Size(max = 400)

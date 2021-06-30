@@ -17,13 +17,14 @@ public class AutoresController {
 
     @PersistenceContext
     private EntityManager entityManager;
-    @Autowired
-    private ProibeEmailDuplicadoAutorValidator proibeEmailDuplicadoAutorValidator;
 
-    @InitBinder
-    public void init(WebDataBinder webDataBinder) {
-        webDataBinder.addValidators(proibeEmailDuplicadoAutorValidator);
-    }
+    //@Autowired
+    //private ProibeEmailDuplicadoAutorValidator proibeEmailDuplicadoAutorValidator;
+
+    //@InitBinder
+    //public void init(WebDataBinder webDataBinder) {
+    //    webDataBinder.addValidators(proibeEmailDuplicadoAutorValidator);
+    //}
 
     @PostMapping(value = "/autores")
     @Transactional
