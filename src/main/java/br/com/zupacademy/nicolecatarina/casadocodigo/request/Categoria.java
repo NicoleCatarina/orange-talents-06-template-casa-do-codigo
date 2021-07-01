@@ -18,8 +18,14 @@ public class Categoria {
         this.nome = nome;
     }
 
+    @Deprecated
+    public Categoria() {
+    }
+
     @Override
     public String toString() {
         return "Categoria [id=" + id + ", nome=" + nome +"]";
     }
+
+
 }
