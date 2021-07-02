@@ -1,5 +1,6 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.exception;
+package br.com.zupacademy.nicolecatarina.casadocodigo.validation.validator;
 
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation.UniqueValue;
 import org.springframework.util.Assert;
 
 import javax.persistence.EntityManager;

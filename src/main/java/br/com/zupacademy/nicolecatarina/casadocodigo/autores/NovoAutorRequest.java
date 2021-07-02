@@ -1,6 +1,6 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.request;
+package br.com.zupacademy.nicolecatarina.casadocodigo.autores;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.exception.UniqueValue;
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation.UniqueValue;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

@@ -1,4 +1,6 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.exception;
+package br.com.zupacademy.nicolecatarina.casadocodigo.validation.validator;
+
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation.ExistsId;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

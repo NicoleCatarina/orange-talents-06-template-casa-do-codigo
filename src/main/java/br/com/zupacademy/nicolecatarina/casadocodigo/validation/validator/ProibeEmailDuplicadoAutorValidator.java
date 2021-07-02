@@ -1,8 +1,8 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.exception;
+package br.com.zupacademy.nicolecatarina.casadocodigo.validation.validator;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.repository.AutorRepository;
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.Autor;
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.NovoAutorRequest;
+import br.com.zupacademy.nicolecatarina.casadocodigo.autores.AutorRepository;
+import br.com.zupacademy.nicolecatarina.casadocodigo.autores.Autor;
+import br.com.zupacademy.nicolecatarina.casadocodigo.autores.NovoAutorRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

@@ -1,4 +1,6 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.exception;
+package br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation;
+
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.validator.ExistsIdValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

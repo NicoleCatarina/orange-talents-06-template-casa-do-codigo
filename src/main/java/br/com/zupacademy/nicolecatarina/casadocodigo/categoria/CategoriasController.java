@@ -1,7 +1,5 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.controller;
+package br.com.zupacademy.nicolecatarina.casadocodigo.categoria;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.Categoria;
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.NovaCategoriaRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;

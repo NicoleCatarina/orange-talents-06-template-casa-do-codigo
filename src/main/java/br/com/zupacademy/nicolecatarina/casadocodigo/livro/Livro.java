@@ -1,4 +1,7 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.request;
+package br.com.zupacademy.nicolecatarina.casadocodigo.livro;
+
+import br.com.zupacademy.nicolecatarina.casadocodigo.autores.Autor;
+import br.com.zupacademy.nicolecatarina.casadocodigo.categoria.Categoria;
 
 import javax.persistence.*;
 import javax.validation.Valid;
@@ -49,6 +52,11 @@ public class Livro {
     }
 
 
+    public String detailsToString() {
+        return "Livro [id=" + id + ", titulo=" + titulo + "]";
+    }
+
+    @Deprecated
     public Livro() {
     }
 }

@@ -1,6 +1,5 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.repository;
+package br.com.zupacademy.nicolecatarina.casadocodigo.autores;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.Autor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

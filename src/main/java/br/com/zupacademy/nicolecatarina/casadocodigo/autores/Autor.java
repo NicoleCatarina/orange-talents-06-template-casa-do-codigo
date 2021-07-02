@@ -1,4 +1,4 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.request;
+package br.com.zupacademy.nicolecatarina.casadocodigo.autores;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.util.Assert;

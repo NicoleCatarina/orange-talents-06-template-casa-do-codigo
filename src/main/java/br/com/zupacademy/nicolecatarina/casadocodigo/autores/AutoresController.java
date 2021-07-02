@@ -1,10 +1,5 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.controller;
+package br.com.zupacademy.nicolecatarina.casadocodigo.autores;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.exception.ProibeEmailDuplicadoAutorValidator;
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.Autor;
-import br.com.zupacademy.nicolecatarina.casadocodigo.request.NovoAutorRequest;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.EntityManager;

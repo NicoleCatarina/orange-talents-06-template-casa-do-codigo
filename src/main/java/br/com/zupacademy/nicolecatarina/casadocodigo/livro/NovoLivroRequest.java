@@ -1,7 +1,9 @@
-package br.com.zupacademy.nicolecatarina.casadocodigo.request;
+package br.com.zupacademy.nicolecatarina.casadocodigo.livro;
 
-import br.com.zupacademy.nicolecatarina.casadocodigo.exception.ExistsId;
-import br.com.zupacademy.nicolecatarina.casadocodigo.exception.UniqueValue;
+import br.com.zupacademy.nicolecatarina.casadocodigo.categoria.Categoria;
+import br.com.zupacademy.nicolecatarina.casadocodigo.autores.Autor;
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation.ExistsId;
+import br.com.zupacademy.nicolecatarina.casadocodigo.validation.annotation.UniqueValue;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.util.Assert;
 
