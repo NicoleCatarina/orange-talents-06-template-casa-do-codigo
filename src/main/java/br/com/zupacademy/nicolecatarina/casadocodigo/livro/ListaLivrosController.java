@@ -29,7 +29,7 @@ public class ListaLivrosController {
 //    }
 
     @GetMapping(value = "/lista-livros")
-    public List<String> List() {
+    public List<String> list() {
         List<Livro> livros = manager.createQuery("select a from Livro a").getResultList();
 
         List<String> list = new ArrayList<> ();
