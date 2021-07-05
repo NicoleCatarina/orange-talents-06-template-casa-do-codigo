@@ -2,6 +2,7 @@ package br.com.zupacademy.nicolecatarina.casadocodigo.livro;
 
 import br.com.zupacademy.nicolecatarina.casadocodigo.autores.Autor;
 import br.com.zupacademy.nicolecatarina.casadocodigo.categoria.Categoria;
+import com.sun.xml.bind.marshaller.Messages;
 
 import javax.persistence.*;
 import javax.validation.Valid;
@@ -42,6 +43,34 @@ public class Livro {
         this.categoria = categoria;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getResumo() {
+        return resumo;
+    }
+
+    public String getSumario() {
+        return sumario;
+    }
+
+    public BigDecimal getPreco() {
+        return preco;
+    }
+
+    public int getNumeroPaginas() {
+        return numeroPaginas;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public Autor getAutor() {
+        return autor;
+    }
+
     @Override
     public String toString() {
         return "Livro [id=" + id + ", titulo=" + titulo + ", resumo='" + resumo
@@ -58,5 +87,9 @@ public class Livro {
 
     @Deprecated
     public Livro() {
+    }
+
+    public LocalDate getDataPublicacao() {
+        return this.dataPublicacao;
     }
 }
