@@ -13,9 +13,9 @@ public class Estado {
     private Long id;
     @NotBlank
     private String nome;
+    @ManyToOne
     @NotNull
     @Valid
-    @ManyToOne
     private Pais pais;
 
     public Estado(String nome, Pais pais) {
@@ -30,5 +30,17 @@ public class Estado {
 
     @Deprecated
     public Estado() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public boolean pertenceAPais(Pais pais) {
+        return this.pais.equals(pais);
     }
 }
